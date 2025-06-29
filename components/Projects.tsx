@@ -70,18 +70,6 @@ const projects: Project[] = [
     ],
      projimg: "/proj-portfolio1.jpeg"
   },
-  {
-    title: "Data Analytics Pro",
-    description: "A powerful web-based Excel file analyzer that provides instant data analysis and beautiful visualizations, directly in the browser.",
-    link: "https://data-analyser-pro.netlify.app",
-    category: 'Software',
-    technologies: [
-      { name: "TypeScript", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" },
-      { name: "TailwindCSS", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" },
-      { name: "Vercel", icon: "https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" }
-    ],
-     projimg: "/proj-excel.jpeg"
-  },
 ];
 
 type Category = 'all' | 'Software';
