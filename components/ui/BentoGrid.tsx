@@ -117,7 +117,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "kiran123@gmail.com";
+    const text = "kiranmavi5502@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
     triggerConfetti();
@@ -163,11 +163,11 @@ export const BentoGridItem = ({
           {id === 5 ? (
             <div className="object-cover w-full h-full">
               <Image
-                src="/zeejAIphoto.png"
+                src={img ?? ""}
                 alt="AI Chatbot Preview"
                 width={800}
                 height={600}
-                className="-mt-9 md:mt-24 lg:-mt-9 object-cover transition-opacity duration-300"
+                className="-mt-9 md:mt-24 lg:-mt-9 object-cover transition-opacity opacity-25 duration-300"
               />
             </div>
           ) : (
@@ -194,7 +194,7 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-72 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+          <div className="font-sans font-medium md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
           <div className={`md:mt-16 lg:mt-2 font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}>

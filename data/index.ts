@@ -10,10 +10,10 @@ export const gridItems = [
     id: 1,
     title: "I build softwares that drive revenue",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] ",
     imgClassName: "-mt-2 md:-mt-44 lg:-mt-4",
     titleClassName: "justify-start",
-    img: "/new-robot-pink.png",
+    img: "/bgImage.webp",
     spareImg: "",
   },
   {
@@ -49,13 +49,13 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a React Library and 3D AI Powered Chatbots",
+    title: "Full Stack Developer with an insider's edge in Data Analysis — I don't just build systems, I understand the stories behind the data.",
     description: "The Insider",
     className: "md:col-span-3 md:row-span-2 bg-black !bg-black",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-start md:justify-start lg:justify-start",
-    img: "",
-    spareImg: "/grid.svg",
+    img: "/data-insider.jpeg",
+    spareImg: "/data-insider.jpeg",
   },
   {
     id: 6,
@@ -140,7 +140,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using Flutter.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },

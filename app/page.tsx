@@ -114,7 +114,7 @@ const Preloader = ({ setIsLoading }: PreloaderProps) => {
 
     // Load other assets after MetallicPaintRender is shown
     const img = new Image();
-    img.src = '/zeej3.svg';
+    img.src = '/logo.png';
     img.onload = () => {
       // Other assets loaded
     };

@@ -4,10 +4,10 @@ import FlowingMenu from './ui/FlowingMenu';
 const Footer2= ()=>{
 
     const demoItems = [
-        { link: 'https://www.linkedin.com/in/kiran-tariq-sahi/', text: 'LinkedIn', image: 'https://picsum.photos/600/400?random=1' },
-        { link: 'https://github.com/kiran', text: 'Github', image: 'https://picsum.photos/600/400?random=2' },
-        { link: 'https://www.tiktok.com/@zeej.codes', text: 'TikTok', image: 'https://picsum.photos/600/400?random=3' },
-        { link: 'https://www.instagram.com/zeej.codes/', text: 'Instagram', image: 'https://picsum.photos/600/400?random=4' }
+        { link: 'https://www.linkedin.com/in/kiran-balasubramanian-188196215/', text: 'LinkedIn', image: 'https://picsum.photos/600/400?random=1' },
+        { link: 'https://github.com/Kiranmavi', text: 'Github', image: 'https://picsum.photos/600/400?random=2' },
+        // { link: 'https://www.tiktok.com/@zeej.codes', text: 'TikTok', image: 'https://picsum.photos/600/400?random=3' },
+        // { link: 'https://www.instagram.com/zeej.codes/', text: 'Instagram', image: 'https://picsum.photos/600/400?random=4' }
     ];
 
 return(

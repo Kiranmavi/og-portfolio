@@ -185,7 +185,7 @@ export const Hero2 = () => {
       <section
         id="hero"
         ref={heroRef}
-        className="pt-24 pb-20 md:pt-28 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#60A5FA,#E0F2FE_100%)] relative w-full overflow-hidden"
+        className="pt-24 pb-20 md:pt-28 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] relative w-full overflow-hidden"
       >
         <div className="container mx-auto px-4 md:px-6 lg:px-8 relative">
           <div className="flex flex-col items-center md:flex-row md:items-center relative">

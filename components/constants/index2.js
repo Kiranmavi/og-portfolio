@@ -29,8 +29,8 @@ export const StatsData = [
   },
   {
     id: 2,
-    types: 'Students Mentored',
-    num: '80',
+    types: 'Mentored students',
+    num: '10',
   },
   {
     id: 3,

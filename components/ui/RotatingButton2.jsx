@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import Memoji from "@/public/memoji.svg";
+import Memoji from "@/public/email.svg";
 
 const RotatingButton2 = () => {
     const text = "contact*me*contact*";
@@ -86,7 +86,7 @@ const RotatingButton2 = () => {
                     }}
                 >
                     <Memoji
-                        className="w-full h-full object-cover"
+                        className="w-5{0%} h-full object-fit"
                     />
                 </div>
             </div>

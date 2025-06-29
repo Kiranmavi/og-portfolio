@@ -18,45 +18,50 @@ interface Project {
 
 const projects: Project[] = [
     {
-    title: "Voice to Voice LLM Chatbot",
-    description: "A witty conversational AI assistant powered by Google's Gemini AI, gTTS, and pydub for speech-to-text and text-to-speech, with a React frontend for natural, engaging interactions.",
-    link: "https://voice-to-voice-llm.vercel.app",
-    category: 'Software',
-    technologies: [
-      { name: "Gemini AI", icon: "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg" },
-      { name: "Python", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" },
-      { name: "React", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" }
-    ],
-     projimg: "/proj-voice.jpeg"
-  },
-  {
-    title: "Zeej Codes",
-    description: "Zeej Codes is a platform offering UI components for developers, with live previews, customizable backgrounds, editable code, and responsive design previews.",
-    link: "https://zeej-codes.vercel.app",
+    title: "Smart Mediacare",
+    description: "MediCare is an AI-powered web application for seamless medical appointment booking, management, and healthcare analytics. It features role-based dashboards, an AI health assistant, and prescription OCR to enhance patient, doctor, and admin experiences.",
+    link: "https://smart-medicare.netlify.app",
     category: 'Software',
     technologies: [
       { name: "React.js", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" },
       { name: "TailwindCSS", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" },
-      { name: "JavaScript", icon: "/js.png" }
+      { name: "JavaScript", icon: "/js.png" },
+      { name: "Framer Motion", icon: "/framer-motion.svg" },
+      { name: "Next.js", icon: "/nextjs-icon.svg" }
     ],
-    projimg: "/proj-zeejcodes.jpeg"
+     projimg: "/medi1.png"
   },
   {
-    title: "Zeej AI",
-    description: "A 3D AI avatar that answers queries in real time with interactive lip syncing and facial expressions with Three.js, React, Node.js and API integration.",
-    link: "https://3-d-chatbot-zeej-frontend.vercel.app",
+    title: "Trend Basket",
+    description: "Developed a modern e-commerce website using Next.js and Tailwind CSS with responsive design, optimized performance, and secure checkout. Integrated product listings, cart management, and payment gateway for a seamless shopping experience.",
+    link: "https://trend-basket-io.netlify.app",
     category: 'Software',
     technologies: [
-      { name: "Three.js", icon: "/three-js-icon.png" },
-      { name: "Node.js", icon: "/nodejs.png" },
-      { name: "Gemini", icon: "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg" }
+      { name: "React.js", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" },
+      { name: "TailwindCSS", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" },
+      { name: "JavaScript", icon: "/js.png" },
+      { name: "Framer Motion", icon: "/framer-motion.svg" },
+      { name: "Next.js", icon: "/nextjs-icon.svg" }
     ],
-    projimg: "/proj-zeejai.jpeg"
+    projimg: "/trend1.png"
+  },
+  {
+    title: "Bug-Tracker",
+    description: "Built an in-house Bug Tracker using Next.js and Tailwind CSS to log, assign, and track bugs efficiently. Included features like status updates, filtering by module, and role-based bug assignment.",
+    link: "https://in-house-bug-tracker-io.netlify.app",
+    category: 'Software',
+    technologies: [
+      { name: "TailwindCSS", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" },
+      { name: "JavaScript", icon: "/js.png" },
+      { name: "Framer Motion", icon: "/framer-motion.svg" },
+      { name: "Next.js", icon: "/nextjs-icon.svg" }
+    ],
+    projimg: "/bugCollage1.png"
   },
   {
     title: "Kiran's Portfolio",
     description: "An interactive visually detailed portfolio with framer motion, Three.js, and React for an immersive experience.",
-    link: "https://kiran-portfolio.netlify.app",
+    link: "https://kiran-balasubramanian-portfolio.netlify.app",
     category: 'Software',
     technologies: [
       { name: "Three.js", icon: "/three-js-icon.png" },
@@ -77,69 +82,9 @@ const projects: Project[] = [
     ],
      projimg: "/proj-excel.jpeg"
   },
-  {
-    title: "React UI",
-    description: "A collection of modern, responsive, customizable and Ready-to-use React components with stunning animations and effects.",
-    link: "https://react-ui-awesome.netlify.app",
-    category: 'Software',
-    technologies: [
-      { name: "TailwindCSS", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" },
-      { name: "React.js", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" },
-      { name: "TypeScript", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" }
-    ],
-    projimg: "/proj-reactui2.jpeg"
-  },
-  {
-    title: "Predictive ML - Hillingdon Council",
-    description: "An in-depth, rigorous application of machine learning algorithms like LSTM, XGBoost and more for prediction based on historical data from Hillingdon Council, UK.",
-    link: "https://kiran.github.io/Weather-Prediction-MachineLearningAlgorithms-HillingdonCouncilUK/MachineLearningModelsforWeatherPrediction.html",
-    category: 'Data',
-    technologies: [
-      { name: "Tensorflow", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1915px-Tensorflow_logo.svg.png" },
-      { name: "Google Cloud", icon: "/gcp.png" },
-      { name: "Scikit-learn", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png" }
-    ],
-    projimg: "/proj-hillingdon.jpeg"
-  },
-  {
-    title: "NasaAI- Space Lovers RAG",
-    description: "A RAG based nerdy, AI chatbot that provides every information about NASA's space explorations, for space lovers like me.",
-    link: "https://rag-nasaai-spacelovers.onrender.com",
-    category: 'Data',
-    technologies: [
-      { name: "Next.js", icon: "/nextjs-icon.svg" },
-      { name: "Astra DB", icon: "/astra.png" },
-      { name: "Gemini", icon: "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg" }
-    ],
-    projimg: "/proj-nasa-data.jpeg"
-  },
-  {
-    title: "Data Analysis using Machine Learning",
-    description: "An in-depth data analysis and machine learning approach for predicting automobile prices based on various features and variables.",
-    link: "https://kiran.github.io/Automobile-Predictive-Data-Analysis-RStudio/Automobile-Price-Prediction.nb.html",
-    category: 'Data',
-    technologies: [
-      { name: "R", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1280px-R_logo.svg.png" },
-      { name: "Pandas", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png" },
-      { name: "Matplotlib", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/1200px-Matplotlib_icon.svg.png" }
-    ],
-    projimg: "/proj-automobile-data.jpeg"
-  },
-  {
-    title: "Customer Data Insights Dashboard",
-    description: "An interactive Dashboard to obtain Data Visualisation on heaps of Excel customer datasets, implemented in both Power BI and Tableau.",
-    link: "https://public.tableau.com/shared/NRTQ73KXK?:display_count=n&:origin=viz_share_link",
-    category: 'Data',
-    technologies: [
-      { name: "Tableau", icon: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png" },
-      { name: "Power BI", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/2048px-New_Power_BI_Logo.svg.png" },
-      { name: "Excel", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" }
-    ],
-    projimg: "/proj-dashboard-data.jpeg"
-  },
 ];
 
-type Category = 'all' | 'Software' | 'Data';
+type Category = 'all' | 'Software';
 
 function Projects() {
   const [selectedCategory, setSelectedCategory] = useState<Category>('all');
@@ -158,9 +103,7 @@ function Projects() {
     >
       {icon}
       <span className="capitalize">
-        {category === 'all' ? 'All Projects' : 
-         category === 'Data' ? 'Data' : 
-         'Software'}
+        {category === 'all' ? 'All Projects' :  'Software'}
       </span>
     </button>
   );
@@ -187,7 +130,6 @@ function Projects() {
           <div className="flex flex-wrap gap-3 justify-center">
             <CategoryButton category="all" icon={<Globe className="w-5 h-5" />} />
             <CategoryButton category="Software" icon={<Boxes className="w-5 h-5" />} />
-            <CategoryButton category="Data" icon={<Code2 className="w-5 h-5" />} />
           </div>
         </RiseOnScroll>
       </header>

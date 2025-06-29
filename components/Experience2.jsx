@@ -37,22 +37,23 @@ const Experience2 = () => {
                             <directionalLight position={[10, 10, 10]} intensity={1} />
                             <Environment preset="city" />
                             <OrbitControls
-                                enableZoom={false}
+                                enableZoom={true}
                                 maxPolarAngle={Math.PI / 2}
                                 onChange={handleModelInteraction}
                             />
                             <Suspense fallback={<Preloader />}>
 
-                                <Model scale={2.6}
-                                    position={[0, -1.9, -0.2]}
-                                    rotation={[-1.2, 0, 0]}
-                                    animationName={animationName} />
+                                <Model 
+                                    position={[0, 0, 0]}
+                                    rotation={[0, 0, 0]}
+                                    animationName={animationName}
+                                    scale={[0.01, 0.01, 0.01]} />
 
                             </Suspense>
                         </Canvas>
                         {/* Hand Swipe Animation */}
                         {!hasInteracted && (
-                            <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
+                            <div className="absolute inset-0 pointer-events-none flex z-100 items-center justify-center">
                                 <div className="hand-swipe-animation">
                                     <div className="relative">
                                         <img
