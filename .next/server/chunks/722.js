@@ -1,0 +1,1 @@
+"use strict";exports.id=722,exports.ids=[722],exports.modules={2722:(e,t,s)=>{s.r(t),s.d(t,{default:()=>i});var r=s(5344);let i=()=>r.jsx("footer",{className:"w-full pt-20 pb-10",children:r.jsx("div",{className:"flex justify-center items-center",children:r.jsx("p",{className:"text-sm md:text-base font-light text-white/80",children:"Copyright \xa9 2025 kiran"})})})}};
