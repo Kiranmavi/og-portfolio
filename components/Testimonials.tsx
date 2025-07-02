@@ -6,13 +6,13 @@ import React, { useState, useEffect } from "react";
 import RiseOnScroll from "./ui/RiseOnScroll";
 
 const testimonials = [
-  {
-    text: "kiran did a great job as our Developer and helped build our product from the ground up. She was a great asset to our team and we look forward to working with her again in the future.",
-    imageSrc: "/veract.png",
-    name: "Peter Ponton",
-    username: "CEO, Veract Consultancy Private Limited",
-    bgColor: "bg-pink-100",
-  },
+  // {
+  //   text: "kiran did a great job as our Developer and helped build our product from the ground up. She was a great asset to our team and we look forward to working with her again in the future.",
+  //   imageSrc: "/veract.png",
+  //   name: "Peter Ponton",
+  //   username: "CEO, Veract Consultancy Private Limited",
+  //   bgColor: "bg-pink-100",
+  // },
   {
     text: "It has been a pleasure working with Kiran on the development of our Swarna Silver website. From the very beginning, Kiran demonstrated exceptional technical expertise, professionalism, and a deep understanding of our unique needs as a silver jewellery brand. He brought our vision to life with a sleek, user-friendly, and performance-optimized website that reflects both elegance and functionality.Kiran was proactive in suggesting improvements, extremely responsive to feedback, and always met deadlines with dedication and attention to detail. His ability to combine design aesthetics with robust backend functionality truly set our site apart.Thanks to Kiran’s hard work, our customers now enjoy a seamless online shopping experience, and our team has a reliable, scalable platform to grow our digital presence.We are incredibly grateful for Kiran’s contribution and would highly recommend him to anyone looking for a talented and reliable web developer.",
     imageSrc: "/new-square-pink.png",
@@ -61,6 +61,13 @@ const testimonials = [
     name: "Sarvana kumar",
     username: "Sr. software Engineer,Veract",
     bgColor: "bg-blue-100",
+  },
+  {
+    text: "It has been a pleasure working with Kiran on the development of our Swarna Silver website. From the very beginning, Kiran demonstrated exceptional technical expertise, professionalism, and a deep understanding of our unique needs as a silver jewellery brand. He brought our vision to life with a sleek, user-friendly, and performance-optimized website that reflects both elegance and functionality.Kiran was proactive in suggesting improvements, extremely responsive to feedback, and always met deadlines with dedication and attention to detail. His ability to combine design aesthetics with robust backend functionality truly set our site apart.Thanks to Kiran’s hard work, our customers now enjoy a seamless online shopping experience, and our team has a reliable, scalable platform to grow our digital presence.We are incredibly grateful for Kiran’s contribution and would highly recommend him to anyone looking for a talented and reliable web developer.",
+    imageSrc: "/new-square-pink.png",
+    name: "Kaushik Chandrasekar",
+    username: "CEO, Swarna silvers",
+    bgColor: "bg-indigo-100",
   },
 ];
 

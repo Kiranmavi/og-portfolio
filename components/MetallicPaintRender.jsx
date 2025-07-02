@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 
 // Import logo from the public folder
-const logoUrl = "/zeej3.svg";
+const logoUrl = "/logo.svg";
 
 // Dynamically import MetallicPaint with no SSR
 const MetallicPaint = dynamic(() => import("./ui/MetallicPaint"), {
@@ -29,7 +29,9 @@ const MetallicPaintRender = () => {
         async function loadDefaultImage() {
             try {
                 console.log("Attempting to fetch:", logoUrl);
-                const response = await fetch(logoUrl);
+                const response = await fetch(logoUrl, {
+                    cache: 'no-store'
+                  });
                 if (!response.ok) {
                     throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
                 }
@@ -44,6 +46,7 @@ const MetallicPaintRender = () => {
                 // Dynamically import parseLogoImage only when needed
                 const { parseLogoImage } = await import("./ui/MetallicPaint");
                 const result = await parseLogoImage(file);
+                 
                 console.log("Parse result:", result);
 
                 if (!result || !result.imageData) {

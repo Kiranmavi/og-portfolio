@@ -31,12 +31,12 @@ export const metadata: Metadata = {
     title: "Kiran | Portfolio",
     description: "Software Developer specializing in creating innovative web experiences with modern technologies.",
     creator: "@Kiran",
-    images: ["/proj-portfolio1.jpeg"],
+    images: ["/projectKiran.png"],
   },
   icons: {
-    icon: '/zeejlogo.png',
-    shortcut: '/zeejlogo.png',
-    apple: '/zeejlogo.png',
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
   },
 };
 
@@ -48,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/zeejlogo.svg" sizes="any" />
+        <link rel="icon" href="/logo.svg" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

@@ -29,7 +29,7 @@ const projects: Project[] = [
       { name: "Framer Motion", icon: "/framer-motion.svg" },
       { name: "Next.js", icon: "/nextjs-icon.svg" }
     ],
-     projimg: "/medi1.png"
+     projimg: "/sm.png"
   },
   {
     title: "Trend Basket",
@@ -56,7 +56,7 @@ const projects: Project[] = [
       { name: "Framer Motion", icon: "/framer-motion.svg" },
       { name: "Next.js", icon: "/nextjs-icon.svg" }
     ],
-    projimg: "/bugCollage1.png"
+    projimg: "/bug-collage1.png"
   },
   {
     title: "Kiran's Portfolio",
@@ -68,7 +68,7 @@ const projects: Project[] = [
       { name: "React.js", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" },
        { name: "Framer Motion", icon: "/framer-motion.svg" }
     ],
-     projimg: "/proj-portfolio1.jpeg"
+     projimg: "/projectKiran.png"
   },
 ];
 
