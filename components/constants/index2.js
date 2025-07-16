@@ -46,7 +46,7 @@ export const workExperiences = [
         icon: '/veract.png', // use your logo path
         name: 'Veract Consultancy Pvt. Ltd.',
         pos: 'Software Engineer',
-        duration: 'Jul 2021 – Jun 2023',
+        duration: 'June 2023 – March 2025',
         title: [
           "Worked as a Software Engineer building scalable web applications.",
           "Built frontend features using React and integrated REST APIs.",
@@ -59,7 +59,7 @@ export const workExperiences = [
         icon: '/veract.png', // same company, same logo
         name: 'Veract Consultancy Pvt. Ltd.',
         pos: 'Software Engineer Intern',
-        duration: 'Jan 2021 – Jun 2021',
+        duration: 'May 2023 – June 2023',
         title: [
           "Joined as a Software Engineer Intern to assist in internal tool development.",
           "Gained hands-on experience in React.js, JavaScript, and Python.",
