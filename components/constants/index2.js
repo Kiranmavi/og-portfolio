@@ -41,9 +41,32 @@ export const StatsData = [
 export const workExperiences = [
   
   
+
       {
         id: 1,
-        icon: '/veract.png', // use your logo path
+        icon: '/apt-aura.jpeg', 
+        name: 'Apt Aura',
+        pos: 'Freelance AI Engineer',
+        duration: 'December 2025 – current',
+        title: [
+          "Designed and implemented RAG‑style pipelines using Python, LangChain and embeddings to power contextual recommendations inside the Apt‑Aura platform, improving relevance of project and connection suggestions for users."
+        ],
+        animation: 'Typing1',
+      },
+       {
+        id: 2,
+        icon: '/freelance.png', 
+        name: 'Freelance',
+        pos: 'Software Engineer',
+        duration: 'March 2025 – November 2025',
+        title: [
+          "Built Next.js/Node.js dashboard for logistics team tracking vehicle loading/unloading schedules, cargo status, driver assignments, and delivery timelines via intuitive calendars and real-time updates."
+        ],
+        animation: 'Typing1',
+      },
+      {
+        id: 3,
+        icon: '/veract.png', 
         name: 'Veract Consultancy Pvt. Ltd.',
         pos: 'Software Engineer',
         duration: 'June 2023 – March 2025',
@@ -55,7 +78,7 @@ export const workExperiences = [
         animation: 'Typing1',
       },
       {
-        id: 2,
+        id: 4,
         icon: '/veract.png', // same company, same logo
         name: 'Veract Consultancy Pvt. Ltd.',
         pos: 'Software Engineer Intern',

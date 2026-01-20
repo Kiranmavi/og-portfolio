@@ -210,7 +210,7 @@ export const Hero2 = () => {
               
               <RiseOnScroll delay={0.5}>
                 <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-                  I&apos;m a passionate Software Developer with a strong foundation in Full-Stack Web Development, Data Science, and AI-driven solutions. With 2 years of professional experience, I specialize in building responsive and scalable applications using modern frameworks like ReactJS, Next.js, Angular, and Flutter. 
+                  I&apos;m a passionate Software and Data Developer with a strong foundation in Full-Stack Web Development, Data Science, and AI-driven solutions. With 2 years of professional experience, I specialize in building responsive and scalable applications using modern frameworks like ReactJS, Next.js, Angular, and Flutter. 
                 </p>
               </RiseOnScroll>
               
