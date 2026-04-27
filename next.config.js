@@ -26,6 +26,14 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'public.tableau.com',
             },
+            {
+                protocol: 'https',
+                hostname: 'huggingface.co',
+            },
+            {
+                protocol: 'https',
+                hostname: 'raw.githubusercontent.com',
+            },
         ],
     },
     webpack(config) {

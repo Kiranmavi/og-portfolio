@@ -58,7 +58,7 @@ export const workExperiences = [
         icon: '/freelance.png', 
         name: 'Freelance',
         pos: 'Software Engineer',
-        duration: 'March 2025 – November 2025',
+        duration: 'May 2025 – November 2025',
         title: [
           "Built Next.js/Node.js dashboard for logistics team tracking vehicle loading/unloading schedules, cargo status, driver assignments, and delivery timelines via intuitive calendars and real-time updates."
         ],

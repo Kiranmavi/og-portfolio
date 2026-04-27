@@ -70,9 +70,36 @@ const projects: Project[] = [
     ],
      projimg: "/projectKiran.png"
   },
+  {
+    title: "Cricket Analysis Dashboard",
+    description: "This project demonstrates a production-grade data engineering pipeline applied to cricket performance data. Raw match records are ingested, validated, transformed and served to a Power BI reporting layer - following the same medallion architecture used in enterprise data platforms",
+    link: "https://github.com/Kiranmavi/cricket-performance-analysis",
+    category: 'Data',
+    technologies: [
+      { name: "Python", icon: "/Python-logo-notext.svg.png" },
+      { name: "Databricks", icon: "/Databricks_Logo.png" },
+      { name: "Apache Spark", icon: "/apache-spark.jpeg" },
+      { name: "Delta Lake", icon: "/delta-lake.png" },
+      { name: "Power BI", icon: "/power-bi-logo.jpeg" }
+    ],
+     projimg: "/cricket-dashboard-screenshot.png"
+  },
+  {
+    title: "Safety Document Extraction",
+    description: "This project focuses on extracting and analyzing safety documents using natural language processing techniques.",
+    link: "https://github.com/Kiranmavi/safety-document-extraction",
+    category: 'Data',
+    technologies: [
+      { name: "Python", icon: "/Python-logo-notext.svg.png" },
+      { name: "HuggingFace", icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
+      { name: "Flask", icon: "/flask-logo.png" },
+      { name: "Pandas", icon: "/Pandas_logo.svg.png" }
+    ],
+     projimg: "/sentiment-analysis-for-each-sentence.png"
+  },
 ];
 
-type Category = 'all' | 'Software';
+type Category = 'all' | 'Software' | 'Data';
 
 function Projects() {
   const [selectedCategory, setSelectedCategory] = useState<Category>('all');
@@ -91,7 +118,7 @@ function Projects() {
     >
       {icon}
       <span className="capitalize">
-        {category === 'all' ? 'All Projects' :  'Software'}
+        {category === 'all' ? 'All Projects' : category === 'Software' ? 'Software' : 'Data & AI'}
       </span>
     </button>
   );
@@ -118,6 +145,7 @@ function Projects() {
           <div className="flex flex-wrap gap-3 justify-center">
             <CategoryButton category="all" icon={<Globe className="w-5 h-5" />} />
             <CategoryButton category="Software" icon={<Boxes className="w-5 h-5" />} />
+            <CategoryButton category="Data" icon={<Code2 className="w-5 h-5" />} />
           </div>
         </RiseOnScroll>
       </header>
@@ -184,8 +212,11 @@ function Projects() {
                           rel="noopener noreferrer"
                           className="border-2 border-white inline-flex items-center gap-2 px-6 py-3 bg-violet-600 font-semibold text-white rounded-3xl hover:bg-white hover:text-violet-600 hover:border-violet-600 transition-colors"
                         >
-                          View Live
-                          <ExternalLink className="w-4 h-4 font-bold" />
+                          {project.link.includes('github.com') ? 'View Source Code' : 'View Live'}
+                          {project.link.includes('github.com')
+                            ? <Code2 className="w-4 h-4 font-bold" />
+                            : <ExternalLink className="w-4 h-4 font-bold" />
+                          }
                         </a>
                       </div>
                     </div>
@@ -209,8 +240,11 @@ function Projects() {
                           rel="noopener noreferrer"
                           className="border-2 border-white inline-flex items-center gap-2 px-6 py-3 bg-violet-600 font-semibold text-white rounded-3xl hover:bg-white hover:text-violet-600 hover:border-violet-600 transition-colors"
                         >
-                          View Live
-                          <ExternalLink className="w-4 h-4 font-bold" />
+                          {project.link.includes('github.com') ? 'View Source Code' : 'View Live'}
+                          {project.link.includes('github.com')
+                            ? <Code2 className="w-4 h-4 font-bold" />
+                            : <ExternalLink className="w-4 h-4 font-bold" />
+                          }
                         </a>
                       </div>
 
