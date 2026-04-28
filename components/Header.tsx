@@ -56,7 +56,7 @@ export const Header = () => {
       <div className="container cursor-default">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <h1 className="text-white text-2xl font-bold font-generalsans">MAVI</h1>
+          <h1 className="text-white text-2xl font-bold font-generalsans">KIRAN</h1>
           {/* <Image src={zeejlogo} alt="Zeej Logo" height={120} width={120} priority className="hover:scale-105 transition-transform mt-3 cursor-pointer"  onClick={() => handleNavClick('hero')} /> */}
 
           {/* Hamburger Menu Icon */}
